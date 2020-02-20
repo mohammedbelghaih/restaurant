@@ -6,15 +6,24 @@ body{
 	display: flex;
 	justify-content: space-between;
 	color: white;
+    width: 90%;
+    padding-top: 20px;
 }
+
 
 .header .nav-bar ul{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
 }
-.header .nav-bar ul li{
+.header .nav-bar ul li a{
 	margin-right: 13px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.header .nav-bar ul li a:hover{
+    border: 1px red solid;
 }
 
 .s1{
